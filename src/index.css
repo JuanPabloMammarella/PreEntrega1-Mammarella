@@ -37,6 +37,11 @@ h1 {
   color: #1a1a1a;
 }
 
+.fotos {
+  border-radius: 80px;
+  border: 2px solid black;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -44,12 +49,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #000000;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #ff0000;
+  border-color: #00ff00;
+  border-radius: 8px;
 }
 button:focus,
 button:focus-visible {
@@ -71,4 +77,9 @@ button:focus-visible {
 
 h3 {
   color: #1a1a1a;
+}
+
+img {
+  border-radius: 80px;
+  border: 2px solid black;
 }
