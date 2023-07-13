@@ -12,7 +12,7 @@ function App() {
         <header>
         <img className="logo" src="../src/images/logo.jpg" alt="" />
       </header>
-        <h1>Mi Aplicación Ecommerce</h1>
+        <h1>Tienda Virtual de "El Buen Comer"</h1>
         <Navbar />
         <Routes>
           <Route path='/' element={<ItemListContainer />}/>
