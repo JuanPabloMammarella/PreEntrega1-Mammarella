@@ -75,6 +75,8 @@ button:focus-visible {
 
 h3 {
   color: #1a1a1a;
+  margin-left: 15%;
+  text-decoration: underline;
 }
 
 img {
